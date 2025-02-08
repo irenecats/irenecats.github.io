@@ -22,8 +22,6 @@ function ProjectGallery({ selectedItem, handleClick }: Props) {
     }
   });
 
-  const project = projectList.at(selectedItem);
-
   return (
     <div className={style.stickyContainer}>
       <div>
